@@ -1,0 +1,29 @@
+# Geospatial & Data Science Core
+geopandas>=1.0.0
+shapely>=2.0.0
+pyproj>=3.6.0
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.13.0
+
+# Spatial Statistics & Autocorrelation (Moran's I, LISA)
+libpysal>=4.12.0
+esda>=2.6.0
+splot>=1.1.5
+
+# Database & Data Warehouse
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.9
+geoalchemy2>=0.15.0
+
+# Visualization & Mapping
+matplotlib>=3.8.0
+seaborn>=0.13.0
+folium>=0.17.0
+contextily>=1.6.0
+
+# Geocoding & Networking
+geopy>=2.4.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0

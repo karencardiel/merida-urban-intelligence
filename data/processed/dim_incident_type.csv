@@ -1,0 +1,9 @@
+tipo_id,categoria,tipo_accidente,nivel_gravedad
+1,Colisión,Colisión con vehículo,Moderado
+2,Colisión,Colisión con motocicleta,Grave
+3,Atropellamiento,Colisión con peatón,Crítico
+4,Colisión,Colisión con ciclista,Grave
+5,Colisión,Colisión con objeto fijo,Moderado
+6,Volcadura,Volcadura,Grave
+7,Salida de Camino,Salida del camino,Moderado
+8,Caída de Persona,Caída de pasajero,Leve
