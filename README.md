@@ -180,6 +180,7 @@ Verify PostgreSQL is running on `localhost:5432` with PostGIS enabled.
 
 ### Step 3: Initialize Database Schema
 ```bash
+cd sql
 docker exec -i merida_postgis_dw psql -U postgres -d merida_dw < sql/01_schema.sql
 ```
 
