@@ -112,7 +112,7 @@ Population 2020, accidents 2024 and DENUE May 2026 have different reference date
 
 ## Collaboration and final submission
 
-Keep the original repository and commit history. Each team member should commit their own substantive code, analysis or documentation changes; do not manufacture historical contributions. The final submission requires this reproducible repository and a 4–6 page PDF containing the problem, geography, warehouse architecture, selected KPIs, maps, findings and limitations. The DENUE release is verified from the original archive. The technical report is included in `docs/BI_E2_Merida_Report.pdf`. The original download date was not recorded. Collaboration must still be evidenced by real individual contributions in this same repository.
+Keep the original repository and commit history. Each team member should commit their own substantive code, analysis or documentation changes; do not manufacture historical contributions. The final submission requires this reproducible repository and a 4–6 page PDF containing the problem, geography, warehouse architecture, selected KPIs, maps, findings and limitations. The DENUE release is verified from the original archive. The technical report is included in `docs/BARKD_Merida_Report.pdf`. The original download date was not recorded. Collaboration must still be evidenced by real individual contributions in this same repository.
 
 ## Repository structure and final artifacts
 
