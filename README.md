@@ -110,9 +110,6 @@ The ETL exports `quality_summary.json`, DENUE assignment decisions and excluded 
 
 Population 2020, accidents 2024 and DENUE May 2026 have different reference dates. Rates use the Census population as an explicit denominator rather than a current-year estimate. Accidents per resident are territorial comparisons, not individual travel-risk estimates. Official cartography may not cover more recent expansion. Sparse areas can have unstable ratios. Common area denominators can affect density correlations. Observed statistical association does not establish causality.
 
-## Collaboration and final submission
-
-Keep the original repository and commit history. Each team member should commit their own substantive code, analysis or documentation changes; do not manufacture historical contributions. The final submission requires this reproducible repository and a 4–6 page PDF containing the problem, geography, warehouse architecture, selected KPIs, maps, findings and limitations. The DENUE release is verified from the original archive. The technical report is included in `docs/BARKD_Merida_Report.pdf`. The original download date was not recorded. Collaboration must still be evidenced by real individual contributions in this same repository.
 
 ## Repository structure and final artifacts
 
@@ -120,6 +117,7 @@ Keep the original repository and commit history. Each team member should commit 
 - `sql/`: schema, alternative psql load, views, validation and KPI queries.
 - `notebooks/`: source/geography exploration and pipeline entry point.
 - `docs/`: source inventory, original DENUE metadata, archive fingerprints, data dictionary, model diagram and technical report.
+- Technical report: [BARKD_Merida_Report.pdf](docs/BARKD_Merida_Report.pdf).
 - `data/raw/`: place the four unchanged original archives here; excluded from Git.
 - `data/processed/`: validated geographic/temporal exports and integration audits.
 - `outputs/`: final analytical tables, maps, figures and findings.
