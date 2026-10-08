@@ -1,0 +1,22 @@
+[
+  {
+    "filename": "ageb_mza_urbana_31_cpv2020_csv.zip",
+    "bytes": 6044441,
+    "sha256": "5cc69c7a9f0f248e1e19f960b4498a5459d4bedbc1bdc5dd7f98bfac44f99180"
+  },
+  {
+    "filename": "denue_31_csv.zip",
+    "bytes": 10832360,
+    "sha256": "a47d4054f2cdeb5ebfce0da8ce1934cb830417174c504182b81964a329556536"
+  },
+  {
+    "filename": "31_yucatan.zip",
+    "bytes": 50570164,
+    "sha256": "c486f642edbae13e51e219374d15f432758d565f86bc83472e6ec2c70b1e8f81"
+  },
+  {
+    "filename": "atus_2024_shp.zip",
+    "bytes": 30598455,
+    "sha256": "830bc6570b18197ba0016e76fd85ee545f7c8a3eddedc02049b995d00f3bdb32"
+  }
+]
