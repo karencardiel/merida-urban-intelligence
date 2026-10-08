@@ -1,0 +1,46 @@
+{
+  "scope": "Road safety using instructor-authorized ATUS; these are not crime indicators.",
+  "neighborhood": "Queen contiguity, row standardized; all AGEBs retained; islands have zero spatial lag and are excluded from local cluster classification.",
+  "islands": [
+    "7039"
+  ],
+  "components": 3,
+  "seed": 42,
+  "global_moran": [
+    {
+      "indicator": "densidad_pob_km2",
+      "I": 0.47431996683623323,
+      "expected_I": -0.002074688796680498,
+      "p_sim": 0.001,
+      "permutations": 999
+    },
+    {
+      "indicator": "densidad_accidentes_km2",
+      "I": 0.09935606366729557,
+      "expected_I": -0.002074688796680498,
+      "p_sim": 0.001,
+      "permutations": 999
+    }
+  ],
+  "bivariate_moran": {
+    "x": "densidad_establecimientos_km2",
+    "neighbor_y": "densidad_accidentes_km2",
+    "I": 0.12179834634759377,
+    "p_sim": 0.001,
+    "permutations": 999
+  },
+  "totals": {
+    "ageb_count": 483,
+    "population": 921771.0,
+    "businesses": 54995.0,
+    "accidents": 2130.0
+  },
+  "cautions": [
+    "Spatial association does not establish causality.",
+    "2020 population, 2024 accidents and the DENUE snapshot are not a single contemporaneous year.",
+    "LISA p-values are unadjusted exploratory results across multiple local tests.",
+    "Global Moran includes disconnected components and islands; assess sensitivity if required.",
+    "Densities share an area denominator and can show associations partly related to that denominator.",
+    "Traffic accidents per resident are a territorial indicator, not an individual travel-risk estimate."
+  ]
+}

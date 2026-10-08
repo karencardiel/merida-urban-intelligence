@@ -1,0 +1,7 @@
+x,y,method,n,coefficient,p_value
+densidad_pob_km2,densidad_establecimientos_km2,Pearson,483,0.15946082063654238,0.00043486617399887304
+densidad_pob_km2,densidad_establecimientos_km2,Spearman,483,0.4541218588308245,5.985280299449827e-26
+densidad_pob_km2,densidad_accidentes_km2,Pearson,483,0.09195269221618275,0.04339239747022299
+densidad_pob_km2,densidad_accidentes_km2,Spearman,483,0.1491864152873074,0.0010067440055985348
+densidad_establecimientos_km2,densidad_accidentes_km2,Pearson,483,0.2387048373923964,1.0996955122551315e-07
+densidad_establecimientos_km2,densidad_accidentes_km2,Spearman,483,0.4347822296356587,1.080255409938418e-23
