@@ -34,7 +34,9 @@ This script creates schema, loads data, creates views and validates in one trans
 
 ## Original sources
 
-Place the original archives in `data/raw/`. The ETL reads archives directly and never overwrites raw bytes.
+Download the four original ZIP archives from [Google Drive — Raw data](https://drive.google.com/drive/folders/1Wfy9uiXtubHaJ84nkpUdyGkj9t7wHcut) and place them in `data/raw/` before running the pipeline.
+
+Keep the archives compressed and preserve their original filenames. The ETL reads them directly and never overwrites raw bytes. These files are excluded from Git and provided separately for reproducibility.
 
 | Archive | Source and original grain | Variables |
 |---|---|---|
