@@ -1,0 +1,31 @@
+{
+  "scope": "Urban AGEBs, entity 31, municipality 050, locality 0001",
+  "ageb_count": 483,
+  "population": 921771,
+  "denue_candidates": 55059,
+  "denue_unmatched_codes": 64,
+  "denue_recovered_by_coordinates": 0,
+  "denue_excluded": 64,
+  "businesses": 54995,
+  "accidents_municipality": 2271,
+  "accidents_integrated": 2130,
+  "accidents_excluded": 141,
+  "excluded_accidents_inside_locality": 0,
+  "temporal_rows": 1988,
+  "census_missing": {
+    "POBTOT": 0,
+    "POB0_14": 6,
+    "POB15_64": 3,
+    "POB65_MAS": 8,
+    "PEA": 3,
+    "PE_INAC": 4,
+    "POCUPADA": 3,
+    "PDESOCUP": 47,
+    "VIVTOT": 0,
+    "TVIVHAB": 3
+  },
+  "census_year": 2020,
+  "accident_year": 2024,
+  "atus_geometry_authority": "Official shapefile point geometry; latitude/longitude points reconstructed for comparison only",
+  "max_coordinate_geometry_difference_m": 0.0
+}
