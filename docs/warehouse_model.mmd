@@ -1,0 +1,38 @@
+erDiagram
+    dim_ageb ||--|| fact_demografia : geography
+    dim_ageb ||--|| fact_economia : geography
+    dim_ageb ||--|| fact_accidentes : geography
+    dim_ageb ||--o{ fact_accidentes_tiempo : geography
+    dim_ageb {
+        varchar CVE_AGEB PK
+        integer ENTIDAD
+        integer MUN
+        integer LOC
+        double area_km2
+        geometry geometry
+    }
+    fact_demografia {
+        varchar CVE_AGEB PK,FK
+        double POBTOT
+        double PEA
+        double PE_INAC
+    }
+    fact_economia {
+        varchar CVE_AGEB PK,FK
+        double total_establecimientos
+        double retail
+        varchar actividad_dominante_codigo
+    }
+    fact_accidentes {
+        varchar CVE_AGEB PK,FK
+        double total_accidentes
+        double total_muertos
+        double total_heridos
+    }
+    fact_accidentes_tiempo {
+        varchar CVE_AGEB PK,FK
+        integer anio PK
+        integer mes PK
+        varchar periodo_dia PK
+        double total_accidentes
+    }
